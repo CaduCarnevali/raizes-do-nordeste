@@ -1,0 +1,76 @@
+[
+  {
+    "id": "customer-001",
+    "name": "Marina Oliveira",
+    "email": "cliente@raizes.com.br",
+    "password": "raizes123",
+    "points": 68,
+    "privacyConsent": false,
+    "privacyAcceptedAt": null,
+    "marketingConsent": false,
+    "orders": [
+      {
+        "id": "RN-2841",
+        "date": "28/09/2026",
+        "subtotal": 45.8,
+        "pointsUsed": 0,
+        "pointsDiscount": 0,
+        "total": 45.8,
+        "status": "Pedido retirado",
+        "pointsEarned": 45,
+        "unit": {
+          "id": "centro",
+          "name": "Unidade Centro",
+          "address": "Rua das Palmeiras, 120 — Centro"
+        },
+        "items": [
+          { "name": "Xote de Carne de Sol", "quantity": 1, "price": 29.9 },
+          { "name": "Crocante de Macaxeira", "quantity": 1, "price": 15.9 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "customer-002",
+    "name": "João Santos",
+    "email": "joao@raizes.com.br",
+    "password": "nordeste123",
+    "points": 15,
+    "privacyConsent": false,
+    "privacyAcceptedAt": null,
+    "marketingConsent": false,
+    "orders": []
+  },
+  {
+    "id": "customer-003",
+    "name": "Ana Costa",
+    "email": "ana@raizes.com.br",
+    "password": "clube123",
+    "points": 120,
+    "privacyConsent": false,
+    "privacyAcceptedAt": null,
+    "marketingConsent": false,
+    "orders": [
+      {
+        "id": "RN-1967",
+        "date": "01/10/2026",
+        "subtotal": 65.7,
+        "pointsUsed": 0,
+        "pointsDiscount": 0,
+        "total": 65.7,
+        "status": "Pedido retirado",
+        "pointsEarned": 65,
+        "unit": {
+          "id": "shopping",
+          "name": "Unidade Shopping",
+          "address": "Av. das Nações, 850 — Piso L2"
+        },
+        "items": [
+          { "name": "Escondidinho Sertanejo", "quantity": 1, "price": 31.9 },
+          { "name": "Arretado de Frango", "quantity": 1, "price": 25.9 },
+          { "name": "Água de Coco", "quantity": 1, "price": 7.9 }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "centro",
+    "name": "Unidade Centro",
+    "address": "Rua das Palmeiras, 120 — Centro",
+    "hours": "10h às 22h",
+    "prepTime": "20–30 min",
+    "available": true
+  },
+  {
+    "id": "shopping",
+    "name": "Unidade Shopping",
+    "address": "Av. das Nações, 850 — Piso L2",
+    "hours": "11h às 23h",
+    "prepTime": "25–35 min",
+    "available": true
+  }
+]

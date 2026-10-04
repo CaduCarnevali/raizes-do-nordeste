@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="920" viewBox="0 0 1800 920">
+  <defs>
+    <style>.title{font:700 34px Arial;fill:#111}.stage{font:700 22px Arial;fill:#fff}.head{fill:#8f2c20}.box{fill:#fff;stroke:#d5c9c0;stroke-width:3}.label{font:700 20px Arial;fill:#222}.body{font:17px Arial;fill:#444}.state{fill:#eaf3eb;stroke:#397346;stroke-width:2}.decision{fill:#fff4d9;stroke:#d58b20;stroke-width:3}.line{stroke:#8f2c20;stroke-width:4;fill:none}.lane{font:700 18px Arial;fill:#8f2c20}</style>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0L0,6L9,3z" fill="#8f2c20"/></marker>
+  </defs>
+  <rect width="1800" height="920" fill="#fafafa"/><text x="900" y="52" text-anchor="middle" class="title">Jornada do Usuário do Cardápio à Retirada</text>
+  <text x="30" y="145" class="lane">Ação do cliente</text><text x="30" y="390" class="lane">Decisões e retornos</text><text x="30" y="660" class="lane">Estado do sistema</text>
+  <g transform="translate(190 90)">
+    <g transform="translate(0 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">1 Acesso</text></g>
+    <g transform="translate(270 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">2 Cardápio</text></g>
+    <g transform="translate(540 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">3 Identificação</text></g>
+    <g transform="translate(810 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">4 Privacidade</text></g>
+    <g transform="translate(1080 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">5 Pagamento</text></g>
+    <g transform="translate(1350 0)"><rect width="250" height="62" rx="12" class="head"/><text x="125" y="39" text-anchor="middle" class="stage">6 Retirada</text></g>
+
+    <g transform="translate(0 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Seleciona unidade</text><text x="18" y="76" class="body">Consulta endereço, horário</text><text x="18" y="104" class="body">e tempo de preparo.</text></g>
+    <g transform="translate(270 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Monta o pedido</text><text x="18" y="76" class="body">Filtra categorias, escolhe</text><text x="18" y="104" class="body">itens, promoção e quantidades.</text></g>
+    <g transform="translate(540 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Entra ou cadastra</text><text x="18" y="76" class="body">A conta recupera pontos</text><text x="18" y="104" class="body">e histórico da sessão.</text></g>
+    <g transform="translate(810 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Define consentimento</text><text x="18" y="76" class="body">Aceita o uso necessário e</text><text x="18" y="104" class="body">decide sobre promoções.</text></g>
+    <g transform="translate(1080 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Aplica pontos e paga</text><text x="18" y="76" class="body">Revisa desconto e confirma</text><text x="18" y="104" class="body">os dados do cartão.</text></g>
+    <g transform="translate(1350 90)"><rect width="250" height="150" rx="12" class="box"/><text x="18" y="38" class="label">Acompanha e retira</text><text x="18" y="76" class="body">Consulta unidade e status</text><text x="18" y="104" class="body">até Pedido retirado.</text></g>
+
+    <path d="M250 165H270M520 165H540M790 165H810M1060 165H1080M1330 165H1350" class="line" marker-end="url(#a)"/>
+
+    <g transform="translate(555 310)"><path d="M110 0L220 72L110 144L0 72Z" class="decision"/><text x="110" y="64" text-anchor="middle" class="label">Conta válida?</text><text x="110" y="94" text-anchor="middle" class="body">Sim ou não</text></g>
+    <g transform="translate(825 310)"><path d="M110 0L220 72L110 144L0 72Z" class="decision"/><text x="110" y="64" text-anchor="middle" class="label">Já consentiu?</text><text x="110" y="94" text-anchor="middle" class="body">Por conta</text></g>
+    <g transform="translate(1095 310)"><path d="M110 0L220 72L110 144L0 72Z" class="decision"/><text x="110" y="64" text-anchor="middle" class="label">Pagamento?</text><text x="110" y="94" text-anchor="middle" class="body">Aprovado ou recusado</text></g>
+    <text x="530" y="500" class="body">Falha: corrigir credenciais</text><text x="830" y="500" class="body">Não: exibir aviso LGPD</text><text x="1090" y="500" class="body">Recusado: permitir nova tentativa</text>
+
+    <g transform="translate(0 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Unidade ativa</text><text x="125" y="78" text-anchor="middle" class="body">Cardápio filtrado</text></g>
+    <g transform="translate(270 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Carrinho calculado</text><text x="125" y="78" text-anchor="middle" class="body">Subtotal atualizado</text></g>
+    <g transform="translate(540 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Conta em memória</text><text x="125" y="78" text-anchor="middle" class="body">Saldo recuperado</text></g>
+    <g transform="translate(810 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Consentimento salvo</text><text x="125" y="78" text-anchor="middle" class="body">Uma vez na sessão</text></g>
+    <g transform="translate(1080 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Pedido confirmado</text><text x="125" y="78" text-anchor="middle" class="body">Pontos e histórico atualizados</text></g>
+    <g transform="translate(1350 560)"><rect width="250" height="120" rx="12" class="state"/><text x="125" y="48" text-anchor="middle" class="label">Pedido concluído</text><text x="125" y="78" text-anchor="middle" class="body">Novo ciclo disponível</text></g>
+  </g>
+</svg>

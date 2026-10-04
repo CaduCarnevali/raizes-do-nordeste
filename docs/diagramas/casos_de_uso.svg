@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <style>
+      .title{font:700 34px Arial;fill:#111}.label{font:600 21px Arial;fill:#111}.small{font:17px Arial;fill:#333}.actor{stroke:#111;stroke-width:4;fill:none}.line{stroke:#555;stroke-width:3;fill:none}.dash{stroke:#8f2c20;stroke-width:3;fill:none;stroke-dasharray:10 8}.use{fill:#fff8ef;stroke:#8f2c20;stroke-width:3}.system{fill:#fff;stroke:#232323;stroke-width:4}.caption{font:700 24px Arial;fill:#8f2c20}.ext{fill:#fff;stroke:#111;stroke-width:4}
+    </style>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#8f2c20"/></marker>
+  </defs>
+  <rect width="1600" height="1000" fill="#fafafa"/>
+  <text x="800" y="52" text-anchor="middle" class="title">Diagrama de Casos de Uso da Aplicação Raízes do Nordeste</text>
+  <rect x="325" y="85" width="950" height="840" rx="16" class="system"/>
+  <text x="800" y="120" text-anchor="middle" class="caption">Sistema de pedidos e retirada</text>
+
+  <g transform="translate(125 190)"><circle cx="0" cy="0" r="28" class="actor"/><path d="M0 28V118M-55 65H55M0 118L-48 185M0 118L48 185" class="actor"/><text x="0" y="225" text-anchor="middle" class="label">Cliente</text></g>
+  <g transform="translate(125 600)"><circle cx="0" cy="0" r="28" class="actor"/><path d="M0 28V118M-55 65H55M0 118L-48 185M0 118L48 185" class="actor"/><text x="0" y="225" text-anchor="middle" class="label">Atendente</text></g>
+  <g transform="translate(1470 205)"><circle cx="0" cy="0" r="28" class="actor"/><path d="M0 28V118M-55 65H55M0 118L-48 185M0 118L48 185" class="actor"/><text x="0" y="225" text-anchor="middle" class="label">Cozinha</text></g>
+  <g transform="translate(1470 520)"><circle cx="0" cy="0" r="28" class="actor"/><path d="M0 28V118M-55 65H55M0 118L-48 185M0 118L48 185" class="actor"/><text x="0" y="220" text-anchor="middle" class="label">Gerente /</text><text x="0" y="247" text-anchor="middle" class="small">Administrador</text></g>
+  <g transform="translate(1470 850)"><rect x="-92" y="-48" width="184" height="96" rx="12" class="ext"/><text x="0" y="-9" text-anchor="middle" class="small">Sistema de pagamento</text><text x="0" y="20" text-anchor="middle" class="small">externo</text></g>
+
+  <g><ellipse cx="535" cy="185" rx="150" ry="52" class="use"/><text x="535" y="193" text-anchor="middle" class="label">Autenticar cliente</text></g>
+  <g><ellipse cx="930" cy="185" rx="205" ry="58" class="use"/><text x="930" y="179" text-anchor="middle" class="label">Selecionar unidade</text><text x="930" y="207" text-anchor="middle" class="small">e visualizar cardápio</text></g>
+  <g><ellipse cx="535" cy="350" rx="150" ry="52" class="use"/><text x="535" y="358" text-anchor="middle" class="label">Montar pedido</text></g>
+  <g><ellipse cx="930" cy="350" rx="190" ry="58" class="use"/><text x="930" y="344" text-anchor="middle" class="label">Aplicar promoções</text><text x="930" y="372" text-anchor="middle" class="small">e pontos</text></g>
+  <g><ellipse cx="535" cy="520" rx="170" ry="58" class="use"/><text x="535" y="514" text-anchor="middle" class="label">Confirmar privacidade</text><text x="535" y="542" text-anchor="middle" class="small">e consentimento</text></g>
+  <g><ellipse cx="930" cy="520" rx="185" ry="58" class="use"/><text x="930" y="514" text-anchor="middle" class="label">Solicitar pagamento</text><text x="930" y="542" text-anchor="middle" class="small">e receber retorno</text></g>
+  <g><ellipse cx="535" cy="700" rx="165" ry="55" class="use"/><text x="535" y="708" text-anchor="middle" class="label">Acompanhar pedido</text></g>
+  <g><ellipse cx="930" cy="700" rx="165" ry="58" class="use"/><text x="930" y="694" text-anchor="middle" class="label">Atualizar status</text><text x="930" y="722" text-anchor="middle" class="small">do preparo</text></g>
+  <g><ellipse cx="740" cy="850" rx="215" ry="58" class="use"/><text x="740" y="844" text-anchor="middle" class="label">Gerenciar cardápio</text><text x="740" y="872" text-anchor="middle" class="small">unidades e campanhas</text></g>
+
+  <path d="M180 245L385 195M180 275L385 340M180 305L365 500M180 335L370 685" class="line"/>
+  <path d="M180 655L370 685M180 685L525 830" class="line"/>
+  <path d="M1415 270L1095 680" class="line"/>
+  <path d="M1415 585L955 825" class="line"/>
+  <path d="M1378 850L1110 545" class="line"/>
+
+  <path d="M685 350L740 350" class="dash" marker-end="url(#arrow)"/><text x="707" y="330" class="small">inclui</text>
+  <path d="M615 392L585 462" class="dash" marker-end="url(#arrow)"/><text x="600" y="430" class="small">inclui</text>
+  <path d="M705 520L745 520" class="dash" marker-end="url(#arrow)"/><text x="716" y="500" class="small">precede</text>
+  <path d="M855 570L610 665" class="dash" marker-end="url(#arrow)"/><text x="720" y="615" class="small">gera</text>
+</svg>

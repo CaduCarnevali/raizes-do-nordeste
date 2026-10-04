@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Xote de Carne de Sol",
+    "description": "Pão brioche, carne de sol desfiada, queijo coalho e melaço de rapadura.",
+    "price": 29.9,
+    "category": "Sanduíches",
+    "emoji": "🥩",
+    "units": ["centro", "shopping"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Baião no Pão",
+    "description": "Hambúrguer artesanal, creme de feijão-verde, queijo coalho e cebola crocante.",
+    "price": 27.9,
+    "category": "Sanduíches",
+    "emoji": "🍔",
+    "units": ["shopping"],
+    "featured": false
+  },
+  {
+    "id": 3,
+    "name": "Crocante de Macaxeira",
+    "description": "Porção de macaxeira dourada com molho de pimenta-de-cheiro.",
+    "price": 15.9,
+    "category": "Acompanhamentos",
+    "emoji": "🍟",
+    "units": ["centro", "shopping"],
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Dadinho de Tapioca",
+    "description": "Dadinho de tapioca com queijo coalho e geleia de pimenta.",
+    "price": 17.5,
+    "category": "Acompanhamentos",
+    "emoji": "🧀",
+    "units": ["centro"],
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Suco de Caju",
+    "description": "Suco natural de caju, 400 ml.",
+    "price": 8.9,
+    "category": "Bebidas",
+    "emoji": "🥤",
+    "units": ["centro", "shopping"],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Refresco de Umbu",
+    "description": "Refresco gelado de umbu, 400 ml.",
+    "price": 9.5,
+    "category": "Bebidas",
+    "emoji": "🧃",
+    "units": ["shopping"],
+    "featured": false
+  },
+  {
+    "id": 7,
+    "name": "Cartola da Casa",
+    "description": "Banana, queijo coalho, açúcar e canela.",
+    "price": 14.9,
+    "category": "Sobremesas",
+    "emoji": "🍌",
+    "units": ["centro"],
+    "featured": false
+  },
+  {
+    "id": 8,
+    "name": "Bolo de Rolo",
+    "description": "Fatia do tradicional bolo de rolo com recheio de goiabada.",
+    "price": 12.9,
+    "category": "Sobremesas",
+    "emoji": "🍰",
+    "units": ["shopping"],
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "Arretado de Frango",
+    "description": "Frango grelhado, queijo coalho, vinagrete e maionese de coentro no pão brioche.",
+    "price": 25.9,
+    "category": "Sanduíches",
+    "emoji": "🐔",
+    "units": ["centro", "shopping"],
+    "featured": true
+  },
+  {
+    "id": 10,
+    "name": "Verde do Agreste",
+    "description": "Hambúrguer de feijão-fradinho, queijo coalho, tomate e molho de ervas.",
+    "price": 24.9,
+    "category": "Sanduíches",
+    "emoji": "🌱",
+    "units": ["centro"],
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "Cuscuz Recheado",
+    "description": "Cuscuz de milho com carne de sol desfiada, queijo coalho e manteiga de garrafa.",
+    "price": 23.9,
+    "category": "Pratos",
+    "emoji": "🌽",
+    "units": ["centro"],
+    "featured": true
+  },
+  {
+    "id": 12,
+    "name": "Escondidinho Sertanejo",
+    "description": "Purê cremoso de macaxeira, carne seca desfiada e queijo gratinado.",
+    "price": 31.9,
+    "category": "Pratos",
+    "emoji": "🥘",
+    "units": ["shopping"],
+    "featured": true
+  },
+  {
+    "id": 13,
+    "name": "Baião de Dois Individual",
+    "description": "Arroz, feijão-verde, queijo coalho e carne de sol em porção individual.",
+    "price": 32.9,
+    "category": "Pratos",
+    "emoji": "🍲",
+    "units": ["centro", "shopping"],
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "Queijo Coalho na Chapa",
+    "description": "Espetinhos de queijo coalho dourados com melaço de rapadura.",
+    "price": 16.9,
+    "category": "Acompanhamentos",
+    "emoji": "🧀",
+    "units": ["centro", "shopping"],
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "Soda de Cajá",
+    "description": "Soda artesanal de cajá com limão e água com gás, 400 ml.",
+    "price": 11.9,
+    "category": "Bebidas",
+    "emoji": "🍹",
+    "units": ["centro"],
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Água de Coco",
+    "description": "Água de coco gelada, 400 ml.",
+    "price": 7.9,
+    "category": "Bebidas",
+    "emoji": "🥥",
+    "units": ["centro", "shopping"],
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "Pudim de Tapioca",
+    "description": "Pudim cremoso de tapioca com calda leve de coco.",
+    "price": 13.9,
+    "category": "Sobremesas",
+    "emoji": "🍮",
+    "units": ["shopping"],
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "Cocada Cremosa",
+    "description": "Cocada de forno servida morna com raspas de coco tostado.",
+    "price": 12.5,
+    "category": "Sobremesas",
+    "emoji": "🥥",
+    "units": ["centro"],
+    "featured": false
+  }
+]
