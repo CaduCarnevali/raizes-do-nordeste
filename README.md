@@ -2,6 +2,8 @@
 
 Protótipo acadêmico responsivo para pedidos e retirada em uma rede fictícia de lanchonetes.
 
+**Aplicação publicada:** https://caducarnevali.github.io/raizes-do-nordeste/
+
 **Aluno:** Henrique da Silva Carnevali  
 **RU:** 4390921
 
