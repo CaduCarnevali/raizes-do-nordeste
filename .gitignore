@@ -2,6 +2,7 @@ node_modules/
 dist/
 .vite/
 *.log
+*.docx
 .DS_Store
 Thumbs.db
 tmp/
